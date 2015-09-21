@@ -1,7 +1,5 @@
 #!/bin/env node
 
-var path = require('path');
-
 if (process.argv.length < 3) {
     console.log('usage: geoip ip1 ip2 ....');
     process.exit(-1);

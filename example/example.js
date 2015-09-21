@@ -1,4 +1,3 @@
-var path = require('path');
 var Geo =  require('..');
 
 var geoIP = new Geo.GeoIP(Geo.Database);

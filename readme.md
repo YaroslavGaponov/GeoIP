@@ -16,7 +16,6 @@ ip = 5.39.127.249 	code = LT 	country = Lithuania
 Example
 =========================
 ```javascript
-var path = require('path');
 var Geo = require('geoip');
 
 var geoIP = new Geo.GeoIP(Geo.Database);
