@@ -38,7 +38,7 @@ function RangeIndex(list, depth) {
     }
 
     function createTree(start, end, depth) {
-        if (depth === 0 || (start === end)) {
+        if ((depth <= 0) || (start >= end)) {
             return createEnd(start);
         }
         var index = (start + end) >> 1;
