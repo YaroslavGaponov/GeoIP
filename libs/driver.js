@@ -19,7 +19,7 @@ function loadSync(fileName) {
                     end: parseInt(trim(p[3])),
                     value: {
                         code: trim(p[4]),
-                        country: trim(p[5])
+                        country: trim(p.slice(5).join(','))
                     }
                 }
             }
